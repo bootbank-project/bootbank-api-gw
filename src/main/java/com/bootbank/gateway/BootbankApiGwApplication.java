@@ -1,13 +1,13 @@
-package com.bootbank.template;
+package com.bootbank.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BootbankMsTemplateApplication {
+public class BootbankApiGwApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BootbankMsTemplateApplication.class, args);
+		SpringApplication.run(BootbankApiGwApplication.class, args);
 	}
 
 }
